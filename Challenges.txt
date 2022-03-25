@@ -1,0 +1,6 @@
+Challenges : 
+         1) Learning React : Pushed my myself to grow into other tech . as front end was not my cup of tea and tried to understand things deeply 
+         2) css : tried to pratice it more and tried to understand it deeply 
+         3) learning new things in react : tried to understand and implement it seprately . for example for usestate biuld a little counter app
+         4) formatting code : at first i didn't used to format and structure code properly . in bootcamp i got a habbit to structure code .
+ 

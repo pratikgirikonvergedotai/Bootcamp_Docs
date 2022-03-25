@@ -1,0 +1,73 @@
+use let and const 
+
+// data types
+let n = "string"
+let n = 1
+let n = {name: "string"}
+let n = true
+let n = [1,"string", false, null]
+
+// class
+class number{
+    constructor(n){
+        this.n = n
+    }
+
+    getMethod(){
+        return this.n
+    }
+
+}
+
+
+
+// if else
+if (n === 1){
+    console.log("w")
+}
+else{
+    console.log("w1")
+}
+
+
+
+// loop 
+let n = [1,2,4,5]
+for (let i=0; i< n.length; i++){
+    console.log(n[i])
+}
+
+
+// functions 
+function we(){
+    return "we"
+}
+
+// high order functions
+// foreach
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach((number) => console.log(number))
+
+// filter
+const numbers = [1, 2, 3, 4, 5];
+
+const oddArray = numbers.filter((number) => number % 2 !== 0);
+console.log(oddArray);
+
+
+// map
+const numbers = [1, 2, 3, 4, 5];
+
+const newArray = numbers.map((number) => number + 1);
+console.log(numbers);
+
+
+// reduce
+const numbers = [1, 2, 3, 4, 5];
+
+const totalValue = numbers.reduce((sum, number) => sum + number);
+console.log(totalValue);
+
+
+

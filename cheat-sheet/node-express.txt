@@ -1,0 +1,31 @@
+what is node js ?
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and 
+executes JavaScript code outside a web browser
+
+
+it has gloabl variable instead of window.
+
+
+
+express : its a framework for node js 
+
+const express  = require("express")
+const app = express()
+
+
+
+app.use(// we can use any middlware here and we can setup router here too)
+app.use(express.urlencoded({ extended: false }))
+app.use(express.json())
+
+
+
+// we can  use all http methods like get, post, put, delete
+app.get()
+
+app.post()
+
+app.put()
+
+app.delete()
+

@@ -1,0 +1,53 @@
+initialize:
+git init
+
+
+adding all files:
+git add .
+
+
+adding a file:
+git add filename
+
+
+commiting:
+git commit -m "message"
+
+
+pushing and setting upstream:
+git push -u origin branch_name
+
+
+check status:
+git status 
+
+
+commit and add at the same time for previously push files:
+git commit -am "message"
+
+
+create and switch to new branch :
+git branch -b branch_name
+
+
+change branch :
+git checkout branch_name
+
+
+show branches:
+git branch 
+
+
+delete branch:
+git branch -d branch_name
+
+if we set upstream we can use:
+git push
+
+
+pull request:
+git pull
+
+
+check remote:
+git remote
