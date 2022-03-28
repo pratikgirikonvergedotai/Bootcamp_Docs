@@ -67,3 +67,6 @@ React-Router : Create React App doesn't include page routing. React Router is th
                Setting the path to * will act as a catch-all for any undefined URLs. This is great for a 404 error page.
 
 
+Inline if-else with conditional operator
+// condition ? true : false
+

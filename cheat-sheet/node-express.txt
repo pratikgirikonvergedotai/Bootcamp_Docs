@@ -5,6 +5,11 @@ executes JavaScript code outside a web browser
 
 it has gloabl variable instead of window.
 
+it has some modules like os,fs,path,http 
+
+_dirname - path to current directory
+_filename - file name
+
 
 
 express : its a framework for node js 
@@ -28,4 +33,62 @@ app.post()
 app.put()
 
 app.delete()
+
+
+app.listen()
+
+
+res.json() // json as response
+res.send() // send a response
+res.render() // render template 
+
+
+// route params
+/api/v1/:id 
+req.params.id
+
+
+// query string
+/api/v1?name=nodejs&number=9
+req.query.name , req.query.number
+
+
+
+
+// data in request object
+--> req.body.name 
+
+
+// callbacks 
+
+function exmaple_callback(variable, callback){
+    callback(variable)
+}
+
+
+
+// promises
+
+promise either resolves or reject no in between 
+
+we can create a promise as :
+
+let newPromise = new Promise((reject, resolve) => {
+    // something here for promise 
+})
+
+// handling promise. then handles promise if resloved . catch handles error if promise gets rejected
+newPromise().then().catch()
+
+// async await 
+
+async await is nice way of writing promise with then and catch
+
+use async and await must be used together
+
+async function connect(){
+    await client.connect()
+}
+
+
 

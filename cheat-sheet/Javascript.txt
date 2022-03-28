@@ -1,11 +1,12 @@
 use let and const 
 
 // data types
-let n = "string"
+let n = "string" 
 let n = 1
 let n = {name: "string"}
 let n = true
 let n = [1,"string", false, null]
+
 
 // class
 class number{
@@ -70,4 +71,63 @@ const totalValue = numbers.reduce((sum, number) => sum + number);
 console.log(totalValue);
 
 
+// function as object
+function Circle(radius){
+    this.radius = radius,
+    this.draw = function (){
+        console.log(this.radius)
+    }
+}
+
+
+
+// array is squence data structure of different types of data types or same
+
+array  => [1,{n : 1}, "we", null]
+
+adding elements to an array:
+End of array : .push()
+Beginning of array : .unshift()
+Middle of array : .splice()
+End of array :  .pop()
+Beginning of array : .shift()
+Middle of array : .splice()
+
+
+const numbers = [1,2,3,4,5]
+console.log(numbers.indexOf(1))             
+console.log(numbers.lastIndexOf(1))         
+console.log(numbers.indexOf(1)!== -1)       
+console.log(numbers.includes(1))
+
+
+const First = [1, 2, 3]
+const second = [4, 5, 6]
+const combined = First.concat(second)
+
+
+// arrow function
+
+() => {}
+
+
+
+// spread operator 
+
+
+
+let newArray = [1,2,3,4]
+console.log(...newArray)
+
+let {...variable} = {
+    name : "nodejs",
+    age : 7
+}
+
+// destructing 
+
+let {name, age} = {
+    name : "nodejs",
+    age : 2
+}
 
